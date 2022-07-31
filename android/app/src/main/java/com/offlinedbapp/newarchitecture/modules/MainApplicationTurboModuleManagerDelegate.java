@@ -1,4 +1,4 @@
-package com.offlinedbapp.newarchitecture.modules;
+package com.wmdatabase.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

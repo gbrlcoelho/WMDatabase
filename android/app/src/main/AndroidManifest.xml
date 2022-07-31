@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.offlinedbapp">
+  package="com.wmdatabase">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

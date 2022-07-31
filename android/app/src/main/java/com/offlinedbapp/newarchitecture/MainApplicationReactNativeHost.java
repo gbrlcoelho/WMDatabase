@@ -1,4 +1,4 @@
-package com.offlinedbapp.newarchitecture;
+package com.wmdatabase.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.offlinedbapp.BuildConfig;
-import com.offlinedbapp.newarchitecture.components.MainComponentsRegistry;
-import com.offlinedbapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.wmdatabase.BuildConfig;
+import com.wmdatabase.newarchitecture.components.MainComponentsRegistry;
+import com.wmdatabase.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

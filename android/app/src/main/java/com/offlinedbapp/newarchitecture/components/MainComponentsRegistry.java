@@ -1,4 +1,4 @@
-package com.offlinedbapp.newarchitecture.components;
+package com.wmdatabase.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;
