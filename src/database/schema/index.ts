@@ -1,8 +1,7 @@
 import {appSchema} from '@nozbe/watermelondb/Schema'
-import commentsSchema from './commentSchema'
-import postSchema from './postSchema'
+import {taskSchema} from './taskSchema'
 
-export default appSchema({
+export const schema = appSchema({
   version: 1,
-  tables: [commentsSchema, postSchema],
+  tables: [taskSchema],
 })
