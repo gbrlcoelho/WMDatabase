@@ -1,16 +1,16 @@
 import {Database} from '@nozbe/watermelondb'
 import SQLiteAdapter from '@nozbe/watermelondb/adapters/sqlite'
 import migrations from './migrations/migrations'
-import Comment from './model/commentModel'
-import Post from './model/postModel'
-import schema from './schema'
+import {TaskModel} from './model/taskModel'
+import {schema} from './schema'
 
 const adapter = new SQLiteAdapter({
-  schema,
-  migrations,
+  schema: schema,
+  migrations: migrations,
+  dbName: 'WMDatabase',
 })
 
 export const database = new Database({
   adapter,
-  modelClasses: [Post, Comment],
+  modelClasses: [TaskModel],
 })
